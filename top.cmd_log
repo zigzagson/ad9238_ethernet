@@ -1,0 +1,229 @@
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX309.190502/demo/17_1_sd_sdram_vga/top.xst" -ofn "E:/BaiduYunDownload/AX309.190502/demo/17_1_sd_sdram_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_sdram_vga.ucf -p xc6slx9-ftg256-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_sdram_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_sdram_vga.ucf -p xc6slx9-ftg256-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_sdram_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx9-ftg256-2 top.ngc top.ngd  
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx9-ftg256-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_ddr_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_ddr_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_ddr_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_ddr_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_ddr_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_ddr_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_ddr_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_ddr_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/18_1_sd_ddr_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc sd_ddr_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf sd_ddr_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/19_1_ddr_ov5640_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/19_1_ddr_ov5640_vga/top.syr" 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/19_1_ddr_ov5640_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/19_1_ddr_ov5640_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_ov5640_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_ov5640_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_ov5640_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ddr_ov5640_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/19_1_ddr_ov5640_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/19_1_ddr_ov5640_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_ov5640_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ddr_ov5640_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/19_1_ddr_ov5640_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/19_1_ddr_ov5640_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_ov5640_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ddr_ov5640_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/19_1_ddr_ov5640_vga/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/19_1_ddr_ov5640_vga/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_ov5640_vga.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ddr_ov5640_vga.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/27_ad9226_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/27_ad9226_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.syr" 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.syr" 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9226_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9226_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.syr" 
+xst -intstyle ise -ifn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.xst" -ofn "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9238_ethernet.ucf -p xc6slx16-csg324-2 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf ad9238_ethernet.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 

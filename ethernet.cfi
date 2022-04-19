@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            10/31/2021 - 20:34
+SOURCE          D:\Xilinx\ise project\demo_ax516\27_ad9238_ethernet\ethernet.mcs
+DEVICE          16384K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0xF863F955
+START_ADDRESS   0x00000000 END_ADDRESS 0x0007165B DIRECTION_UP   "D:/Xilinx/ise project/demo_ax516/27_ad9238_ethernet/top.bit" 6slx16csg324

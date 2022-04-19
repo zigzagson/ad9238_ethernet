@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\BaiduYunDownload\AX516.190526\demo\ad9238_ethernet\top.ncd
+OUTFILE=E:\BaiduYunDownload\AX516.190526\demo\ad9238_ethernet\top.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=E:\BaiduYunDownload\AX516.190526\demo\ad9238_ethernet
+LICENSE=WebPack
+USER_INFO=__0_0_0

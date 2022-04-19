@@ -1,0 +1,8 @@
+Storage Target: SPI Flash Single FPGA
+128M
+FF
+ethernet
+D:\Xilinx\ise project\demo_ax516\27_ad9238_ethernet/
+
+MCS
+No

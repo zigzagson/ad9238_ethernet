@@ -1,0 +1,87 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ad9238_ethernet.ucf -p
+xc6slx16-csg324-2 top.ngc top.ngd
+
+Reading NGO file "E:/BaiduYunDownload/AX516.190526/demo/ad9238_ethernet/top.ngc"
+...
+Loading design module "ipcore_dir/afifo_16_1024.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "ad9238_ethernet.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into DCM_SP instance adc_pll_m0/dcm_sp_inst. The
+   following new TNM groups and period specifications were generated at the
+   DCM_SP output(s): 
+   CLKFX: <TIMESPEC TS_adc_pll_m0_clkfx = PERIOD "adc_pll_m0_clkfx"
+   TS_sys_clk_pin * 1.3 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   mem_ctrl_inst/ddr3_m0/memc3_infrastructure_inst/u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT3: <TIMESPEC
+   TS_mem_ctrl_inst_ddr3_m0_memc3_infrastructure_inst_mcb_drp_clk_bufg_in =
+   PERIOD "mem_ctrl_inst_ddr3_m0_memc3_infrastructure_inst_mcb_drp_clk_bufg_in"
+   TS_sys_clk_pin * 1.5625 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   mem_ctrl_inst/ddr3_m0/memc3_infrastructure_inst/u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT1: <TIMESPEC
+   TS_mem_ctrl_inst_ddr3_m0_memc3_infrastructure_inst_clk_2x_180 = PERIOD
+   "mem_ctrl_inst_ddr3_m0_memc3_infrastructure_inst_clk_2x_180" TS_sys_clk_pin *
+   12.5 PHASE 0.8 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   mem_ctrl_inst/ddr3_m0/memc3_infrastructure_inst/u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT0: <TIMESPEC
+   TS_mem_ctrl_inst_ddr3_m0_memc3_infrastructure_inst_clk_2x_0 = PERIOD
+   "mem_ctrl_inst_ddr3_m0_memc3_infrastructure_inst_clk_2x_0" TS_sys_clk_pin *
+   12.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   mem_ctrl_inst/ddr3_m0/memc3_infrastructure_inst/u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT2: <TIMESPEC
+   TS_mem_ctrl_inst_ddr3_m0_memc3_infrastructure_inst_clk0_bufg_in = PERIOD
+   "mem_ctrl_inst_ddr3_m0_memc3_infrastructure_inst_clk0_bufg_in" TS_sys_clk_pin
+   * 3.125 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N423' has no driver
+WARNING:NgdBuild:452 - logical net 'N427' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   2
+
+Total memory usage is 197936 kilobytes
+
+Writing NGD file "top.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+Writing NGDBUILD log file "top.bld"...

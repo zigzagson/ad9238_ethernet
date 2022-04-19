@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="ad9226_ethernet" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/i2c_config E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|i2c_master|i2c_config.v</ClosedNode>
+         <ClosedNode>/i2c_master_top E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|i2c_master|i2c_master_top.v/byte_controller - i2c_master_byte_ctrl</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|top.v/eth_top_inst - eth_top/mac_inst - mac_top</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|top.v/eth_top_inst - eth_top/mac_inst - mac_top/icmp0 - icmp_reply</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|top.v/eth_top_inst - eth_top/mac_inst - mac_top/mac_rx0 - mac_rx_top</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|top.v/eth_top_inst - eth_top/mac_inst - mac_top/mac_rx0 - mac_rx_top/udp0 - udp_rx</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|top.v/eth_top_inst - eth_top/mac_inst - mac_top/mac_tx0 - mac_tx_top/udp0 - udp_tx</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|top.v/i2c_config_m0 - i2c_config</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|top.v/mem_ctrl_inst - mem_ctrl</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|top.v/video_timing_data_m0 - video_timing_data</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|demo|27_ad9226_ethernet|src|top.v/eth_top_inst - eth_top/mac_inst - mac_top</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|demo|27_ad9226_ethernet|src|top.v/eth_top_inst - eth_top/mac_inst - mac_top/icmp0 - icmp_reply</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|demo|27_ad9226_ethernet|src|top.v/eth_top_inst - eth_top/mac_inst - mac_top/mac_rx0 - mac_rx_top/udp0 - udp_rx</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|demo|27_ad9226_ethernet|src|top.v/eth_top_inst - eth_top/mac_inst - mac_top/mac_tx0 - mac_tx_top</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|demo|27_ad9226_ethernet|src|top.v/mem_ctrl_inst - mem_ctrl</ClosedNode>
+         <ClosedNode>/top E:|BaiduYunDownload|AX516.190526|demo|27_ad9226_ethernet|src|top.v/miim_top_m0 - miim_top - rtl</ClosedNode>
+         <ClosedNode>/video_timing_data E:|BaiduYunDownload|AX516.190526|27_ad9226_ethernet|src|video_timing_data.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>eth_top_inst - eth_top (E:/BaiduYunDownload/AX516.190526/demo/27_ad9226_ethernet/src/mac/eth_top.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000033c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000033c0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>eth_top_inst - eth_top (E:/BaiduYunDownload/AX516.190526/demo/27_ad9226_ethernet/src/mac/eth_top.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000212000000010000000100000000000000000000000064ffffffff000000810000000000000001000002120000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000004a6000000040101000100000000000000000000000064ffffffff000000810000000000000004000002c80000000100000000000000fc00000001000000000000007800000001000000000000006a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>E:\BaiduYunDownload\AX516.190526\demo\27_ad9226_ethernet\ad9226_ethernet.ucf</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000011f000000010001000100000000000000000000000064ffffffff0000008100000000000000010000011f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000212000000010000000100000000000000000000000064ffffffff000000810000000000000001000002120000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000002f1000000010000000100000000000000000000000064ffffffff000000810000000000000001000002f10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000280000000010000000100000000000000000000000064ffffffff000000810000000000000001000002800000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000236000000a201000000040100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

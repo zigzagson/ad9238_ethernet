@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\Xilinx\ise project\demo_ax516\27_ad9238_ethernet\impact.xsl
+OUTFILE=D:\Xilinx\ise project\demo_ax516\27_ad9238_ethernet\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\Xilinx\ise project\demo_ax516\27_ad9238_ethernet
+LICENSE=iMPACT
+USER_INFO=iMPACT
